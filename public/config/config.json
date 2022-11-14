@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x8C084476d0869acc70602E47e0d7111465da929A",
+  "SCAN_LINK": "https://novascan.io/address/0x8c084476d0869acc70602e47e0d7111465da929a?tab=collection",
+  "NETWORK": {
+    "NAME": "Nova Network",
+    "SYMBOL": "SNT",
+    "ID": 87
+  },
+  "NFT_NAME": "Heroes of Abalon",
+  "SYMBOL": "HOFA",
+  "MAX_SUPPLY": 54,
+  "WEI_COST": 1000000000000000000,
+  "DISPLAY_COST": 1,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Tradim",
+  "MARKETPLACE_LINK": "https://tradim.io/collection/0x8C084476d0869acc70602E47e0d7111465da929A",
+  "SHOW_BACKGROUND": true
+}
