@@ -124,7 +124,9 @@ function App() {
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
-        value: totalCostWei,
+        value: Number(totalCostWei).toLocaleString('fullwide', {
+          useGrouping: false,
+        }),
       })
       .once("error", (err) => {
         console.log(err);
@@ -195,10 +197,10 @@ function App() {
       <s.SpacerSmall />
       <StyledLogo alt={"logo"} src={"/config/images/logo.png"} style={{
           width: '500px',
-          maxWidth: '500px'
+          maxWidth: '90vw'
         }} />
-        <p style={{ color: '#FFF', fontSize: '18pt' }}><b>Charpter 1:</b> The Fight Never Ends</p>
-        <ResponsiveWrapper flex={1} style={{ padding: 80 }} test>
+        <p style={{ color: '#FFF', fontSize: '14pt' }}><b>Charpter 1:</b> The Fight Never Ends</p>
+        <ResponsiveWrapper flex={1} style={{ margin: '20px' }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
