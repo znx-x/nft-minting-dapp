@@ -103,7 +103,7 @@ function Mint() {
           }}
         />
         <p style={{ color: '#FFF', fontSize: '14pt' }}>
-          <b>Charpter 1:</b> The Fight Never Ends
+          <b>Founders Edition</b>
         </p>
         <ResponsiveWrapper flex={1} style={{ margin: '20px' }} test>
           <s.Container flex={1} jc={'center'} ai={'center'}>
