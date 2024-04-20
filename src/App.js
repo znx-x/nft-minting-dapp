@@ -199,7 +199,7 @@ function App() {
           width: '500px',
           maxWidth: '90vw'
         }} />
-        <p style={{ color: '#FFF', fontSize: '14pt' }}><b>Charpter 1:</b> The Fight Never Ends</p>
+        <p style={{ color: '#FFF', fontSize: '14pt' }}><b>Founders Edition</b></p>
         <ResponsiveWrapper flex={1} style={{ margin: '20px' }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
