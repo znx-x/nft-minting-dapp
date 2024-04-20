@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xAa47a2eAd4d4fe9A14b8f17420A038d7620823c5",
-  "SCAN_LINK": "https://novascan.io/address/0xAa47a2eAd4d4fe9A14b8f17420A038d7620823c5?tab=collection",
+  "CONTRACT_ADDRESS": "0x2142c6dDBfa7ae9E283d0FbFFFfbe14E502D6265",
+  "SCAN_LINK": "https://btnscan.com/address/0x2142c6dDBfa7ae9E283d0FbFFFfbe14E502D6265",
   "NETWORK": {
-    "NAME": "Nova Network",
-    "SYMBOL": "SNT",
-    "ID": 87
+    "NAME": "Bitnet",
+    "SYMBOL": "BTN",
+    "ID": 210
   },
-  "NFT_NAME": "Heroes of Abalon",
-  "SYMBOL": "HOFA",
-  "MAX_SUPPLY": 54,
-  "WEI_COST": 1000000000000000000000,
-  "DISPLAY_COST": 1000,
+  "NFT_NAME": "The Village",
+  "SYMBOL": "TVG",
+  "MAX_SUPPLY": 128,
+  "WEI_COST": 75000000000000000000,
+  "DISPLAY_COST": 75,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Tradim",
-  "MARKETPLACE_LINK": "https://tradim.io/collection/0xAa47a2eAd4d4fe9A14b8f17420A038d7620823c5",
+  "MARKETPLACE": "Xenwave",
+  "MARKETPLACE_LINK": "https://xenwave.com/#/nfts/collection/0x2142c6dDBfa7ae9E283d0FbFFFfbe14E502D6265",
   "SHOW_BACKGROUND": true
 }
