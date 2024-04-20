@@ -9,7 +9,7 @@ import { defineChain } from 'viem';
 const queryClient = new QueryClient();
 
 // 1. Get projectId at https://cloud.walletconnect.com
-const projectId = '7dbbaae48a395200228fd830f562f3af ';
+const projectId = '7dbbaae48a395200228fd830f562f3af '; // please dont tag or create and issue report, this is meant to be public!
 
 // 2. Create wagmiConfig
 const metadata = {
