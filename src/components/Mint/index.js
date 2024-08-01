@@ -47,7 +47,7 @@ function Mint() {
         .then((receipt) => {
           console.log(receipt);
           setFeedback(
-            `WOW, the ${config.NFT_NAME} is yours! go visit Tradim.io to view it.`
+            `WOW, the ${config.NFT_NAME} is yours! go visit Xenwave to view it.`
           );
           setClaimingNft(false);
         })
