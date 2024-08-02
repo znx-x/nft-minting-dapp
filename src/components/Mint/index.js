@@ -193,6 +193,11 @@ function Mint() {
                     >
                       Connect
                     </StyledButton>
+                    <div style={{ margin: '10px' }}>
+                    <StyledButton style={{ width: '150px' }}>
+                      <a href="https://xenwave.com" style={{ color: '#FFF', textDecoration: 'none' }}>Open Xenwave</a>
+                    </StyledButton>
+                    </div>
                   </s.Container>
                 ) : (
                   <>
@@ -205,6 +210,7 @@ function Mint() {
                       {feedback}
                     </s.TextDescription>
                     <s.SpacerMedium />
+                    <div style={{ display: 'none' }}>
                     <s.Container ai={'center'} jc={'center'} fd={'row'}>
                       <StyledRoundButton
                         style={{ lineHeight: 0.4 }}
@@ -236,6 +242,7 @@ function Mint() {
                         +
                       </StyledRoundButton>
                     </s.Container>
+                    </div>
                     <s.SpacerSmall />
                     <s.Container ai={'center'} jc={'center'} fd={'row'}>
                       <StyledButton
@@ -247,6 +254,13 @@ function Mint() {
                       >
                         {claimingNft ? 'Working...' : 'Mint NFT'}
                       </StyledButton>
+                    </s.Container>
+                    <s.Container ai={'center'} jc={'center'} fd={'row'}>
+                    <div style={{ margin: '10px' }}>
+                    <StyledButton style={{ width: '150px' }}>
+                      <a href="https://xenwave.com" style={{ color: '#FFF', textDecoration: 'none' }}>Open Xenwave</a>
+                    </StyledButton>
+                    </div>
                     </s.Container>
                   </>
                 )}
